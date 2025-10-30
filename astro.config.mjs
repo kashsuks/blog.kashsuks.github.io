@@ -6,7 +6,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'kashsuks.dino.icu/blog',
+	site: 'kashyapblog.netlify.app',
 	integrations: [mdx(), sitemap()],
 	base: '/blog'
 });
