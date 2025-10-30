@@ -6,7 +6,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'kashyap.dino.icu/blog',
 	integrations: [mdx(), sitemap()],
 	base: '/blog'
 });
