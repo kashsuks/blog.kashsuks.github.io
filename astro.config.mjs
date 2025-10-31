@@ -8,5 +8,4 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://kashyap.dino.icu',
   integrations: [mdx(), sitemap()],
-  base: '/blog'
 });
